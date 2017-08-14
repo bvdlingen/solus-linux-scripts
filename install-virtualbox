@@ -1,0 +1,19 @@
+#!/bin/bash
+# check for the lasest version at http://download.virtualbox.org/virtualbox/LATEST.TXT
+# reference: https://solus-project.com/articles/software/virtualbox/en/
+
+# install dependencies
+sudo eopkg ur && sudo eopkd up -y
+sudo eopkg it -y -c system.devel
+sudo eopkg it -y linux-lts-headers linux-current-headers
+
+# source : http://download.virtualbox.org/virtualbox/5.1.26/
+
+wget http://download.virtualbox.org/virtualbox/5.1.26/http://download.virtualbox.org/virtualbox/5.1.26/VirtualBox-5.1.26-117224-Linux_amd64.run -O /tmp/vbox.run
+sudo sh /tmp/vbox.run
+
+#download latest extention pack
+cd ~/Downloads/
+wget http://download.virtualbox.org/virtualbox/5.1.26/Oracle_VM_VirtualBox_Extension_Pack-5.1.26-117224.vbox-extpack
+echo done
+done
