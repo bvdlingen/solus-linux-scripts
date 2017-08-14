@@ -1,0 +1,3 @@
+echo "alias install='sudo eopkg install'" >> ~/.bashrc
+echo "alias update='sudo eopkg ur && sudo eopkg up -y'" >> ~/.bashrc
+echo "alias rupdate='ansible-playbook /etc/ansible/update-debian'" >> ~/.bashrc
