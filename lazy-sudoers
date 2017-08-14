@@ -1,0 +1,3 @@
+sudo echo "bvdl ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+echo done
+done
