@@ -2,5 +2,4 @@
  
 # work in progress but functional
 
-sudo eopkg install -y bind-utils budgie-desktop-branding-material budgie-haste-applet budgie-screenshot-applet containerd cool-retro-term ddclient focuswriter gimp git icedtea-web
-la-capitaine-icon-theme linux-current-headers neofetch networkmanager-openvpn openvpn powerline remmina simplenote slick-greeter snapd speedtest-cli stellarium stress-ng ufw vagrant vim w3m
+sudo eopkg install -y bind-utils budgie-desktop-branding-material budgie-haste-applet budgie-screenshot-applet containerd cool-retro-term ddclient focuswriter gimp git icedtea-web linux-current-headers neofetch networkmanager-openvpn openvpn powerline remmina simplenote slick-greeter snapd speedtest-cli stellarium stress-ng ufw vagrant vim w3m
