@@ -1,39 +1,6 @@
-work in progress
+ 
+ 
+# work in progress but functional
 
-sudo eopkg install -y 
-
-
-#bind-utils                       - Client side programs nslookup, dig and host.
-#budgie-desktop-branding-material - Material design inspired Budgie Desktop experience
-#budgie-haste-applet              - Post any text, be it code or prose, to various services directly from your desktop
-#budgie-screenshot-applet         - Take a screenshot of your desktop, a window or region; save to disk and upload.
-#containerd                       - A daemon to control OCI container runtimes
-#cool-retro-term                  - cool-retro-term is a terminal emulator which mimics the look and feel of the old cathode tube screens
-#ddclient                         - ddclient is a Perl client used to update dynamic DNS entries for accounts on many dynamic DNS services
-#focuswriter                      - Simple, distraction-free word processor.
-#gimp                             - GNU Image Manipulation Program
-#git                              - fast, scalable, distributed revision control system
-#gitkraken                        - The downright luxurious Git client, for Windows, Mac and Linux
-#icedtea-web                      - The IcedTea-Web project provides a Free Software web browser plugin running applets written in the Java programming language and an implementation of Java Web Start
-##la-capitaine-icon-theme          - La Capitaine is an icon pack inspired by macOS and Google's Material Design.
-#linux-current                    - Linux kernel image and modules (current)
-#linux-current-headers            - Linux kernel headers (current)
-#linux-headers                    - Kernel's libc headers
-#linux-lts-headers                - Linux kernel headers (LTS)
-#neofetch                         - A fast, highly customizable system info script.
-#networkmanager-openvpn           - OpenVPN plugin for NetworkManager
-#openvpn                          - OpenVPN Client
-#powerline                        - Powerline vim plugin and shell prompts
-#remmina                          - Remmina GTK+ Remote Desktop Client
-#simplenote                       - SimpleNote Electron Application
-#slick-greeter                    - A stylish LightDM greeter
-#snapd                            - The snapd and snap tools enable systems to work with .snap files
-#speedtest-cli                    - Command line interface for testing internet bandwidth using speedtest.net
-#stellarium                       - Free open source planetarium application
-#stress-ng                        - stress-ng will stress test a computer system in various selectable ways
-#ufw                              - Uncomplicated Firewall
-#vagrant                          - Build and distribute virtualized development environ
-#vim                              - Vi IMproved, an advanced text editor
-#w3m                              - w3m is a pager with WWW capability
-# youtube-dl                       - Small command-line program to download videos from youtube
-# zsh                              - The Z Shell
+sudo eopkg install -y bind-utils budgie-desktop-branding-material budgie-haste-applet budgie-screenshot-applet containerd cool-retro-term ddclient focuswriter gimp git icedtea-web
+la-capitaine-icon-theme linux-current-headers neofetch networkmanager-openvpn openvpn powerline remmina simplenote slick-greeter snapd speedtest-cli stellarium stress-ng ufw vagrant vim w3m
