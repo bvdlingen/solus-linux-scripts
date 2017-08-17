@@ -1,0 +1,15 @@
+# skippy-xd
+
+cd /tmp/
+
+#install dependencies
+sudo eopkg it git giflib-devel libxt-devel libxft-devel libxrender-devel libxcomposite-devel libxdamage-devel libxfixes-devel libxext-devel libxinerama-devel libpng-devel libjpeg-turbo-devel
+
+#install skippy-xd
+git clone https://github.com/richardgv/skippy-xd.git
+cd skippy-xd
+make
+sudo make install
+
+#Then bind a key in keyboard settings to /usr/bin/skippy-xd
+#for example CTRL+S
