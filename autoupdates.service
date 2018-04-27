@@ -1,5 +1,6 @@
 [Unit]
-Description=Eopkg Up
+Description=Automatic updates and upgrades on this Solus setup
+After=network.target
 
 [Service]
 ExecStartPre=/usr/bin/eopkg ur
