@@ -2,4 +2,5 @@
 Description=Eopkg Up
 
 [Service]
-ExecStart=/usr/bin/eopkg ur && /usr/bin/eopkg up -y 
+ExecStartPre=/usr/bin/eopkg ur
+ExecStart=/usr/bin/eopkg up -y
