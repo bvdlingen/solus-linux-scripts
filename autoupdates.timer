@@ -1,0 +1,13 @@
+[Unit]
+Description=Run Eopkg Up Every day
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=4h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
+
+
