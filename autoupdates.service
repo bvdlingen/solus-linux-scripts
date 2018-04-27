@@ -1,0 +1,5 @@
+[Unit]
+Description=Eopkg Up
+
+[Service]
+ExecStart=/usr/bin/eopkg ur && /usr/bin/eopkg up -y 
