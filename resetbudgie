@@ -1,0 +1,11 @@
+!/bin/bash
+
+# source: https://github.com/solus-project/budgie-desktop#re-merge-into-the-solus-project 
+
+# When new features are implemented - it can be helpful to reset the config
+# to the defaults to ensure everything is still working ok.
+
+# To reset the entire configuration tree, issue:
+
+
+budgie-panel --reset --replace &
