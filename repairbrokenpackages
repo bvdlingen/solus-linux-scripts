@@ -1,3 +1,6 @@
-#repair broken packages if any
+# Repair broken packages 
+#
+# (if any, in fact searching for broken packages and reinstalling them)
+
 sudo eopkg check | grep Broken | awk '{print $4}' | xargs sudo eopkg it --reinstall
 
