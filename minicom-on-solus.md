@@ -14,4 +14,4 @@ a quick how-to and some notes
 ---
 
 ## get started
-1. setup minicom: '''minicom -s'''
+1. setup minicom: ```minicom -s```
