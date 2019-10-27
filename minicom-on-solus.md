@@ -1,6 +1,8 @@
 # minicom on Solus
 
-a quick how-to and some notes
+### a quick how-to and some notes
+warning: Minicom is no longer actively developed and maintained, that's why no package is available
+Solus development team recommends using screen or picocom 
 
 ## install from source
 
