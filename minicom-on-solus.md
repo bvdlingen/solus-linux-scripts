@@ -1,6 +1,8 @@
-# install minicom on solus
+# minicom on Solus
 
 a quick how-to and some notes
+
+## install from source
 
 1. ```sudo su```
 2. ```cd /opt```
@@ -8,3 +10,8 @@ a quick how-to and some notes
 4. ```./configure```
 5. ```make``` 
 6. ```make install```
+
+---
+
+## get started
+1. setup minicom: '''minicom -s'''
