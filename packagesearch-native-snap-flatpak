@@ -5,8 +5,11 @@
 # run this script with the search string as argurment
 # e.g.:
 # $ ./zoek goodies
+#
+# to do: support for popular package managers like apt, yum and pacman.
 
 STRING1=$1
+
 echo .
 echo searching for native packages...
 eopkg sr $STRING1
