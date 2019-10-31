@@ -1,18 +1,20 @@
 #!/bin/bash
 
-
-# basic script to search for native, flatpak and snap packages at the same time
+# zoek?
+# basic script to search for native, flatpak and snap packages with one command
 # run this script with the search string as argurment
 # e.g.:
-# $ ./search.sh goodies
+# $ ./zoek goodies
 
-STRING1=$1 
-
-echo searching for native packages:
+STRING1=$1
+echo .
+echo searching for native packages...
 eopkg sr $STRING1
-echo - - - - - - - - - 
-echo looking for snap packages
+
+echo .
+echo looking for snap packages...
 snap search $STRING1
-echo - - - - - - - - - - - - - 
+
+echo .
 echo flatpak maybe?
 flatpak search $STRING1
