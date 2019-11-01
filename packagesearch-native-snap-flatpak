@@ -5,14 +5,22 @@
 # run this script with the search string as argurment
 # e.g.:
 # $ ./zoek goodies
-#
-# to do: support for popular package managers like apt, yum and pacman.
+
 
 STRING1=$1
 
+declare -A osInfo;
+osInfo[/usr/bin/eopkg]=eopkg
+osInfo[/usr/bin/apt-cache]=apt-cache
+
+for f in ${!osInfo[@]}
+do
+    if [[ -f $f ]];then
+        echo Package manager: ${osInfo[$f]}
+
 echo .
 echo searching for native packages...
-eopkg sr $STRING1
+$f search $STRING1
 
 echo .
 echo looking for snap packages...
@@ -21,3 +29,6 @@ snap search $STRING1
 echo .
 echo flatpak maybe?
 flatpak search $STRING1
+
+    fi
+done
