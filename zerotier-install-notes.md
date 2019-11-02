@@ -13,5 +13,6 @@ make selftest
 make install
 
 wget https://raw.githubusercontent.com/zerotier/ZeroTierOne/master/debian/zerotier-one.service -O /etc/systemd/system/zerotier.service
+
 systemctl enable zerotier
 systemctl start zerotier
