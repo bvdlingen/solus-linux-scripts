@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# Install third party software:  Franz
-
-sudo eopkg bi -y --ignore-safety https://raw.githubusercontent.com/solus-project/3rd-party/master/network/im/franz/pspec.xml
-sudo eopkg it -y franz*.eopkg;sudo rm franz*.eopkg
