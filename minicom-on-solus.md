@@ -1,5 +1,6 @@
-# warning: Minicom is no longer actively developed and maintained, that's why no package is available
-## Solus development team recommends using screen or picocom 
+warning:
+# Minicom is no longer actively developed and maintained
+that's why no package is available Solus development team recommends using screen or picocom 
 
 
 ## minicom on Solus
