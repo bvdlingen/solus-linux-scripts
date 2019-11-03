@@ -1,0 +1,16 @@
+# save this file as /etc/systemd/system/zerotier.service
+# enable zerotier like this: sudo systemd enable zerotier
+# start zerotier using this command: sudo systemd start zerotier
+
+[Unit]
+Description=ZeroTier One
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/opt/zerotier/zerotier-one
+Restart=always
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target 
