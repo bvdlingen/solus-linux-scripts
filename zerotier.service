@@ -1,6 +1,12 @@
-# save this file as /etc/systemd/system/zerotier.service
-# enable zerotier like this: sudo systemd enable zerotier
-# start zerotier using this command: sudo systemd start zerotier
+
+# Want to install zerotier on solus linux? Check out my install notes first:
+# https://github.com/bvdlingen/solus-linux-scripts/blob/master/zerotier-install-notes.md
+
+# After installing zerotier a systemd service has to be created:
+
+# 1. save this file as /etc/systemd/system/zerotier.service
+# 2. enable zerotier like this: sudo systemd enable zerotier
+# 3. start zerotier using this command: sudo systemd start zerotier
 
 [Unit]
 Description=ZeroTier One
