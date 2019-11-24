@@ -1,4 +1,4 @@
-alias px="mosh 10.55.55.115"
+alias px="mosh root@10.55.55.115"
 alias colo="mosh root@xxxxxxx.io"
 alias mail="mosh root@xxxxxxxx.blue"
 alias sol="sudo eopkg"
