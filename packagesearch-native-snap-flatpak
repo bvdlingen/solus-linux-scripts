@@ -1,48 +1,8 @@
+Script has been changed to support other distributions
+
 moved to
 https://github.com/bvdlingen/myrandomscripts/blob/master/zoek
 
 
 
 
-
-
-
-
-#!/usr/bin/env bash
-
-# zoek?
-
-# basic script to search for native, flatpak and snap packages with one command
-# run this script with the search string as argurment
-
-# Currently only works with my personal favorite linux distros: solus, debian and debian derivates
-
-# e.g.:
-# zoek goodies
-
-
-STRING1=$1
-
-declare -A osInfo;
-osInfo[/usr/bin/eopkg]=eopkg
-osInfo[/usr/bin/apt-cache]=apt-cache
-
-for f in ${!osInfo[@]}
-do
-    if [[ -f $f ]];then
-        echo Package manager: ${osInfo[$f]}
-
-echo .
-echo searching for native packages... | lolcat
-$f search $STRING1
-
-echo .
-echo looking for snap packages... | lolcat
-snap search $STRING1
-
-echo .
-echo flatpak maybe? | lolcat
-flatpak search $STRING1
-
-    fi
-done
