@@ -1,10 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # zoek?
+
 # basic script to search for native, flatpak and snap packages with one command
 # run this script with the search string as argurment
+
+# Currently only works with my personal favorite linux distros: solus, debian and debian derivates
+
 # e.g.:
-# $ ./zoek goodies
+# zoek goodies
 
 
 STRING1=$1
@@ -19,15 +23,15 @@ do
         echo Package manager: ${osInfo[$f]}
 
 echo .
-echo searching for native packages...
+echo searching for native packages... | lolcat
 $f search $STRING1
 
 echo .
-echo looking for snap packages...
+echo looking for snap packages... | lolcat
 snap search $STRING1
 
 echo .
-echo flatpak maybe?
+echo flatpak maybe? | lolcat
 flatpak search $STRING1
 
     fi
