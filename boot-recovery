@@ -1,0 +1,11 @@
+sudo su
+mkdir /target
+mount /dev/nvme0n1p3 /target/
+
+mount /dev/nvme0n1p1 /target/boot
+mount --bind /proc /target/proc
+mount --bind /dev /target/dev
+mount --bind /sys /target/sys
+chroot /target
+eopkg up
+eopkg check | grep Broken | awk '{print $4}' | xargs eopkg it --reinstall 
