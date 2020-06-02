@@ -9,3 +9,4 @@ mount --bind /sys /target/sys
 chroot /target
 eopkg up
 eopkg check | grep Broken | awk '{print $4}' | xargs eopkg it --reinstall 
+usysconf run -f
