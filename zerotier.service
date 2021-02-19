@@ -17,7 +17,7 @@ After=network-online.target
 Wants=network-online.target
 
 [Service]
-ExecStart=/opt/ZeroTierOne/zerotier-one
+ExecStart=/var/lib/zerotier-one/zerotier-one
 Restart=always
 KillMode=process
 
