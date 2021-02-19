@@ -1,6 +1,9 @@
 
-# Want to install zerotier on solus linux? Check out my install notes first:
-# https://github.com/bvdlingen/solus-linux-scripts/blob/master/zerotier-install-notes.md
+# Want to INSTALL zerotier on solus linux? Check out my install notes:
+# https://github.com/bvdlingen/solus-linux-scripts/blob/master/zerotier-install-notes.sh
+
+# Want to UPDATE zerotier on solus linux? Check out:
+# https://github.com/bvdlingen/solus-linux-scripts/blob/master/zerotier-update-solus.sh
 
 # After installing zerotier a systemd service has to be created:
 
